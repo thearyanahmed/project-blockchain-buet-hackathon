@@ -3038,12 +3038,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x8f8A6e6225b8085b8D9543a28ded29a5dfDcE91d",
-      "transactionHash": "0xcbc8677da5f4eee99f69e7110c2a6fa3654ea2bc5ac1f711f11cc98fae5b6cf9"
+      "address": "0xA7672739722E3B267Fb4D455EDe32a1d32acFB9b",
+      "transactionHash": "0x59ef69aa13d02df2192234ae11b2779ff61211be2a57ef8d4233fe4b09407dc6"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-01-25T03:32:40.588Z",
+  "updatedAt": "2019-01-25T04:59:05.501Z",
   "devdoc": {
     "methods": {}
   },
