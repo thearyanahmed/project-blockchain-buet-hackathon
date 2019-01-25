@@ -10,6 +10,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
+          <h1>Welcome!</h1>
+          <p>{{ accountAddress }}</p>
+        </div>
+      <div class="col-md-12">
         <ul class="nav nav-tabs">
           <li class="active"><a data-toggle="tab" href="#home">New Post</a></li>
           <li><a data-toggle="tab" href="#menu1">Properties</a></li>
@@ -47,6 +51,7 @@ export default {
   name: 'welcome',
   data () {
     return {
+      accountAddress: 'mew',
       postdata: {
         title: null,
         amount: null,
@@ -55,7 +60,8 @@ export default {
     }
   },
   mounted () {
-    console.log('welcome view has loaded')
+    let contract = window.contract
+    console.log(contract.options)
   }
 }
 </script>

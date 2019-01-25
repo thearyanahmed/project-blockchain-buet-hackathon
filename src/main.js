@@ -59,9 +59,8 @@ window.addEventListener('load', function () {
     }
   ]
   const contractAddress = '0xca35b7d915458ef540ade6068dfe2f44e8fa733c'
-
   const contract = web3.eth.contract(myabi, contractAddress)
-
+  window.web3 = web3
   window.contract = contract
   /* eslint-disable no-new */
   new Vue({
