@@ -47,11 +47,11 @@ export default {
   name: 'welcome',
   data () {
     return {
-      postdata {
-        title    : null,
-        amount   : null,
-        interest : null
-      },
+      postdata: {
+        title: null,
+        amount: null,
+        interest: null
+      }
     }
   },
   mounted () {
